@@ -1,0 +1,20 @@
+.atomsDeyNumber,
+.text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.text {
+  width: 23px;
+  position: relative;
+  min-width: 23px;
+}
+.atomsDeyNumber {
+  width: 24px;
+  border-radius: var(--br-9xs);
+  flex-direction: row;
+  text-align: center;
+  font-size: var(--font-size-xl);
+  color: var(--color-gray-200);
+  font-family: var(--font-inter);
+}

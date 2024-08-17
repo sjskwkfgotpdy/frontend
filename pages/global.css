@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Pretendard:wght@500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Hakgyoansim+Samulham:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap");
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --font-pretendard: Pretendard;
+  --font-hakgyoansim-samulham: "Hakgyoansim Samulham";
+  --font-inter: Inter;
+
+  /* font sizes */
+  --font-size-xl: 20px;
+  --font-size-5xl: 24px;
+  --font-size-9xl: 28px;
+  --font-size-mini: 15px;
+
+  /* Colors */
+  --color-white: #fff;
+  --color-gainsboro: #d9d9d9;
+  --main-1: #1772de;
+  --color-black: #000;
+  --color-gray-100: #fffdfd;
+  --color-gray-200: #212121;
+  --main-2: #3d96ff;
+  --color-darkslategray: #3f3f3f;
+  --color-dimgray: #616161;
+
+  /* Gaps */
+  --gap-22xl-5: 41.5px;
+  --gap-2xl: 21px;
+  --gap-lg: 18px;
+  --gap-mid: 17px;
+  --gap-22xl: 41px;
+  --gap-xl: 20px;
+  --gap-40xl: 59px;
+  --gap-10xl: 29px;
+  --gap-28xl: 47px;
+  --gap-4xl: 23px;
+  --gap-38xl: 57px;
+  --gap-9xl: 28px;
+  --gap-34xl: 53px;
+  --gap-7xl: 26px;
+  --gap-lgi: 19px;
+  --gap-39xl: 58px;
+
+  /* Paddings */
+  --padding-xl: 20px;
+  --padding-182xl: 201px;
+  --padding-lgi: 19px;
+  --padding-12xl: 31px;
+  --padding-49xl: 68px;
+  --padding-63xl: 82px;
+  --padding-73xl: 92px;
+  --padding-sm: 14px;
+  --padding-6xl: 25px;
+  --padding-mini: 15px;
+  --padding-75xl-4: 94.4px;
+  --padding-base: 16px;
+  --padding-52xl: 71px;
+  --padding-36xl: 55px;
+  --padding-4xl: 23px;
+  --padding-2xl: 21px;
+  --padding-6xs: 7px;
+  --padding-3xl: 22px;
+  --padding-12xs: 1px;
+  --padding-10xs: 3px;
+  --padding-13xl: 32px;
+  --padding-lg: 18px;
+  --padding-2xs: 11px;
+  --padding-42xl: 61px;
+  --padding-11xs: 2px;
+  --padding-8xs: 5px;
+  --padding-7xs: 6px;
+  --padding-9xs: 4px;
+  --padding-5xs: 8px;
+
+  /* Border radiuses */
+  --br-xl: 20px;
+  --br-xs: 12px;
+  --br-9xs: 4px;
+}

@@ -1,0 +1,23 @@
+.atomsMouth,
+.text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.text {
+  width: 38px;
+  position: relative;
+  font-weight: 600;
+  min-width: 38px;
+}
+.atomsMouth {
+  height: 24px;
+  border-radius: var(--br-9xs);
+  flex-direction: row;
+  padding: 0 var(--padding-5xs);
+  box-sizing: border-box;
+  text-align: center;
+  font-size: var(--font-size-5xl);
+  color: var(--color-gray-200);
+  font-family: var(--font-inter);
+}

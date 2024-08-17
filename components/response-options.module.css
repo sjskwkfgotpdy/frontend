@@ -1,0 +1,185 @@
+.div,
+.icon {
+  position: relative;
+}
+.icon {
+  height: 49px;
+  width: 49px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.div {
+  align-self: stretch;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 104px;
+}
+.moderateStressLabel {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-10xs) 0 0;
+}
+.moderateStressOption {
+  flex: 1;
+  flex-direction: row;
+  gap: var(--gap-lg);
+}
+.moderateStressOption,
+.option,
+.wrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.option {
+  width: 213px;
+  flex-direction: row;
+  padding: 0 var(--padding-2xl);
+  box-sizing: border-box;
+}
+.wrapper {
+  flex: 1;
+  flex-direction: column;
+  padding: var(--padding-6xs) 0 0;
+}
+.badStressIconChild {
+  height: 81px;
+  width: 383px;
+  position: relative;
+  border-radius: var(--br-xs);
+  background-color: var(--main-2);
+  display: none;
+  max-width: 100%;
+}
+.div2,
+.icon2 {
+  position: relative;
+  z-index: 1;
+}
+.icon2 {
+  height: 49px;
+  width: 49px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.div2 {
+  align-self: stretch;
+  font-weight: 500;
+}
+.container {
+  width: 137px;
+  flex-direction: column;
+  padding: var(--padding-6xs) 0 0;
+  box-sizing: border-box;
+}
+.badStressIcon,
+.container,
+.dangerousStressLabel {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.badStressIcon {
+  align-self: stretch;
+  border-radius: var(--br-xs);
+  background-color: var(--main-2);
+  flex-direction: row;
+  padding: var(--padding-base) var(--padding-xl);
+  box-sizing: border-box;
+  gap: var(--gap-lgi);
+  max-width: 100%;
+}
+.dangerousStressLabel {
+  flex: 1;
+  flex-direction: column;
+  padding: var(--padding-12xs) 0 0;
+}
+.dangerousStressOption {
+  flex: 1;
+  flex-direction: row;
+  gap: var(--gap-mid);
+}
+.badStressOption,
+.dangerousStressOption,
+.option3 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.option3 {
+  width: 214px;
+  flex-direction: row;
+  padding: 0 var(--padding-3xl);
+  box-sizing: border-box;
+  color: var(--color-black);
+}
+.badStressOption {
+  align-self: stretch;
+  flex-direction: column;
+  gap: var(--gap-34xl);
+  max-width: 100%;
+}
+.div4 {
+  align-self: stretch;
+  position: relative;
+  font-weight: 500;
+}
+.option1,
+.option2,
+.option4,
+.responseOptions {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.option4 {
+  width: 271px;
+  flex-direction: row;
+  padding: 0 var(--padding-2xl);
+  box-sizing: border-box;
+  color: var(--color-black);
+}
+.option1,
+.option2,
+.responseOptions {
+  align-self: stretch;
+  flex-direction: column;
+  max-width: 100%;
+}
+.option2 {
+  gap: var(--gap-38xl);
+  color: var(--color-white);
+}
+.option1,
+.responseOptions {
+  gap: var(--gap-28xl);
+}
+.responseOptions {
+  gap: var(--gap-40xl);
+  text-align: center;
+  font-size: var(--font-size-9xl);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 383px) {
+  .badStressOption {
+    gap: var(--gap-7xl);
+  }
+  .option2 {
+    gap: var(--gap-9xl);
+  }
+  .option1 {
+    gap: var(--gap-4xl);
+  }
+  .responseOptions {
+    gap: var(--gap-10xl);
+  }
+}
+@media screen and (max-width: 256px) {
+  .badStressIcon {
+    flex-wrap: wrap;
+  }
+}

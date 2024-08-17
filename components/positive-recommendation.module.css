@@ -1,0 +1,96 @@
+.h3 {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 33.5px;
+  font-weight: 500;
+  font-family: inherit;
+}
+.positiveOption {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-xl);
+}
+.alternativeRecommendationChild {
+  width: 256px;
+  height: 328px;
+  position: relative;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+  border-radius: var(--br-xl);
+  background-color: var(--color-white);
+  display: none;
+  z-index: 0;
+}
+.image3Icon {
+  width: 215.7px;
+  height: 159px;
+  position: absolute;
+  margin: 0 !important;
+  top: 84px;
+  right: 15.3px;
+  object-fit: contain;
+  z-index: 1;
+}
+.alternativeRecommendation,
+.div {
+  align-self: stretch;
+  position: relative;
+}
+.div {
+  display: inline-block;
+  min-width: 120px;
+  z-index: 1;
+}
+.alternativeRecommendation {
+  flex: 1;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+  border-radius: var(--br-xl);
+  background-color: var(--color-white);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-12xl) var(--padding-49xl);
+  font-size: var(--font-size-5xl);
+  font-family: var(--font-hakgyoansim-samulham);
+}
+.div1 {
+  position: relative;
+  font-weight: 500;
+  white-space: pre-wrap;
+  cursor: pointer;
+}
+.alternativeOption {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-lgi);
+  font-size: var(--font-size-xl);
+  color: var(--main-1);
+}
+.positiveRecommendation {
+  align-self: stretch;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-22xl-5);
+  text-align: center;
+  font-size: var(--font-size-9xl);
+  color: var(--color-black);
+  font-family: var(--font-pretendard);
+}
+@media screen and (max-width: 256px) {
+  .alternativeRecommendation {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .positiveRecommendation {
+    gap: var(--gap-2xl);
+  }
+}

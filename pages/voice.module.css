@@ -1,0 +1,78 @@
+.voice2Child {
+  position: absolute;
+  top: 0;
+  left: -1px;
+  background-color: var(--color-gainsboro);
+  width: 24px;
+  height: 1499px;
+}
+.div {
+  position: absolute;
+  top: 213px;
+  left: 84px;
+  font-weight: 500;
+}
+.voice2Item {
+  position: absolute;
+  top: -10px;
+  left: 406px;
+  background-color: var(--color-gainsboro);
+  width: 24px;
+  height: 1553px;
+  z-index: 2;
+}
+.circle {
+  position: absolute;
+  top: 0;
+  left: -83px;
+  border-radius: 50%;
+  background-color: #3f5ab9;
+  width: 600px;
+  height: 483px;
+  z-index: 1;
+}
+.microphoneIconChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  z-index: 2;
+}
+.mingcutemicFillIcon {
+  position: absolute;
+  top: 16px;
+  left: 18px;
+  width: 68px;
+  height: 68px;
+  overflow: hidden;
+  z-index: 3;
+}
+.decibelIcon,
+.microphoneIcon {
+  position: absolute;
+  top: 143px;
+  left: 165px;
+  width: 100px;
+  height: 99px;
+}
+.decibelIcon {
+  top: 623px;
+  left: 0;
+  width: 430px;
+  height: 309px;
+}
+.voice2 {
+  width: 100%;
+  height: 932px;
+  position: relative;
+  background-color: var(--color-darkslategray);
+  overflow: hidden;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  font-size: 40px;
+  color: var(--color-white);
+  font-family: var(--font-pretendard);
+}

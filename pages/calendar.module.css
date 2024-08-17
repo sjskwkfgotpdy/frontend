@@ -1,0 +1,108 @@
+.icon {
+  top: 120px;
+  right: 129px;
+}
+.icon,
+.icon1,
+.icon2 {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  margin: 0 !important;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.icon1 {
+  right: 63px;
+  bottom: 121px;
+}
+.icon2 {
+  bottom: 189px;
+  left: calc(50% - 15px);
+}
+.icon3 {
+  bottom: 118px;
+  left: 127px;
+}
+.icon3,
+.icon4,
+.icon5 {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  margin: 0 !important;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.icon4 {
+  bottom: 189px;
+  left: 59px;
+}
+.icon5 {
+  top: 120px;
+  right: 60px;
+}
+.month202408AugustParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+}
+.icon6 {
+  bottom: 350px;
+  left: 83px;
+}
+.icon6,
+.icon7,
+.icon8 {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  margin: 0 !important;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.icon7 {
+  right: 83px;
+  bottom: 350px;
+}
+.icon8 {
+  bottom: 424px;
+  left: 7px;
+}
+.frameChild {
+  height: 99px;
+  width: 100px;
+  position: relative;
+  cursor: pointer;
+}
+.calendar,
+.calendarInner {
+  display: flex;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+.calendarInner {
+  align-self: stretch;
+  height: 99px;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+}
+.calendar {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  overflow: hidden;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 155px 9px 77px;
+  gap: 189px;
+  line-height: normal;
+  letter-spacing: normal;
+}

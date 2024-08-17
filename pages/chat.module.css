@@ -1,0 +1,196 @@
+.chatChild,
+.chatItem {
+  width: 24px;
+  position: absolute;
+  margin: 0 !important;
+  background-color: var(--color-gainsboro);
+}
+.chatChild {
+  height: 1499px;
+  bottom: -567px;
+  left: 0;
+}
+.chatItem {
+  height: 1553px;
+  right: -1px;
+  bottom: -611px;
+}
+.frameChild {
+  border: 0;
+  background-color: var(--color-white);
+  height: 122px;
+  width: 260px;
+  outline: 0;
+  position: relative;
+  border-radius: var(--br-xl) 0 var(--br-xl) var(--br-xl);
+  transform: rotate(180deg);
+}
+.chatInner {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-42xl);
+}
+.frameItem {
+  height: 34px;
+  width: 40px;
+  position: relative;
+  z-index: 1;
+}
+.frameDiv {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 12px 144px;
+}
+.frameInner {
+  border: 0;
+  background-color: var(--color-white);
+  height: 84px;
+  width: 260px;
+  outline: 0;
+  position: relative;
+  border-radius: var(--br-xl) 0 var(--br-xl) var(--br-xl);
+  transform: rotate(180deg);
+}
+.rectangleIcon {
+  width: 40px;
+  height: 34px;
+  position: absolute;
+  margin: 0 !important;
+  top: 97px;
+  left: 24px;
+  object-fit: contain;
+  z-index: 1;
+}
+.rectangleTextarea {
+  border: 0;
+  background-color: var(--main-2);
+  height: 178px;
+  width: 280px;
+  outline: 0;
+  position: relative;
+  box-shadow: 0 4px 4px rgba(82, 82, 82, 0.25);
+  border-radius: var(--br-xl) 0 var(--br-xl) var(--br-xl);
+}
+.rectangleWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+}
+.frameChild1 {
+  width: 40px;
+  height: 34px;
+  position: relative;
+  object-fit: contain;
+  z-index: 1;
+}
+.frameParent {
+  width: 346px;
+  margin: 0 !important;
+  position: absolute;
+  top: 277px;
+  left: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-39xl);
+}
+.frameChild2 {
+  border: 0;
+  background-color: var(--main-2);
+  height: 92px;
+  width: auto;
+  outline: 0;
+  flex: 1;
+  position: relative;
+  border-radius: var(--br-xl) 0 var(--br-xl) var(--br-xl);
+}
+.chatInner1 {
+  width: 358px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 49px 48px;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.chatChild1 {
+  width: 40px;
+  height: 34px;
+  position: absolute;
+  margin: 0 !important;
+  right: 23px;
+  bottom: 243px;
+  z-index: 1;
+}
+.rectangleDiv {
+  height: 79px;
+  width: 419px;
+  position: relative;
+  background-color: var(--main-1);
+  display: none;
+  max-width: 100%;
+}
+.b {
+  position: relative;
+  line-height: 33.5px;
+  display: inline-block;
+  min-width: 129px;
+  z-index: 2;
+}
+.chat,
+.rectangleParent {
+  display: flex;
+  box-sizing: border-box;
+}
+.rectangleParent {
+  align-self: stretch;
+  background-color: var(--main-1);
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: var(--padding-4xl) var(--padding-xl) var(--padding-4xl)
+    var(--padding-2xl);
+  white-space: nowrap;
+  max-width: 100%;
+  z-index: 1;
+  text-align: center;
+  font-size: var(--font-size-9xl);
+  color: var(--color-white);
+  font-family: var(--font-pretendard);
+}
+.chat {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-darkslategray);
+  overflow: hidden;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: 97px var(--padding-2xs) 0 0;
+  gap: var(--gap-39xl);
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 382px) {
+  .chatInner {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 358px) {
+  .chatInner1 {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}

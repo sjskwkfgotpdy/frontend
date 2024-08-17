@@ -1,0 +1,103 @@
+.selector {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+  border-radius: var(--br-xl);
+  background-color: var(--color-white);
+  flex-shrink: 0;
+}
+.disputeCause {
+  margin-left: -261px;
+  height: 314px;
+  width: 244px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-sm) 0 0;
+  box-sizing: border-box;
+  flex-shrink: 0;
+}
+.imageCauseChild {
+  width: 256px;
+  height: 328px;
+  position: relative;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+  border-radius: var(--br-xl);
+  background-color: var(--color-gray-100);
+  display: none;
+}
+.div {
+  width: 70px;
+  position: relative;
+  display: inline-block;
+  min-width: 70px;
+  z-index: 1;
+}
+.imageName {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-52xl);
+}
+.imageIcon {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: contain;
+  z-index: 1;
+}
+.imageCause {
+  height: 328px;
+  width: 256px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+  border-radius: var(--br-xl);
+  background-color: var(--color-gray-100);
+  flex-direction: column;
+  padding: var(--padding-6xl) var(--padding-mini) var(--padding-75xl-4)
+    var(--padding-base);
+  box-sizing: border-box;
+  gap: var(--gap-22xl);
+  flex-shrink: 0;
+}
+.causeOptions,
+.disputeCause1,
+.imageCause {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.disputeCause1 {
+  height: 314px;
+  width: 234px;
+  flex-direction: column;
+  padding: var(--padding-sm) 0 0;
+  box-sizing: border-box;
+  flex-shrink: 0;
+}
+.causeOptions {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 var(--padding-63xl) 0 var(--padding-73xl);
+  gap: var(--gap-mid);
+  text-align: center;
+  font-size: var(--font-size-5xl);
+  color: var(--color-black);
+  font-family: var(--font-hakgyoansim-samulham);
+}
+@media screen and (max-width: 409px) {
+  .causeOptions {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 255px) {
+  .imageCause {
+    gap: var(--gap-xl);
+  }
+}

@@ -1,0 +1,30 @@
+.p {
+  margin: 0;
+}
+.div,
+.home {
+  position: relative;
+}
+.div {
+  width: 248px;
+  display: inline-block;
+}
+.home {
+  width: 100%;
+  height: 932px;
+  background-color: var(--main-2);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 364px var(--padding-xl) 418px;
+  box-sizing: border-box;
+  line-height: normal;
+  letter-spacing: normal;
+  cursor: pointer;
+  text-align: center;
+  font-size: 64px;
+  color: var(--color-white);
+  font-family: var(--font-hakgyoansim-samulham);
+}
