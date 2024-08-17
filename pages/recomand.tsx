@@ -13,11 +13,9 @@ const Recomand: NextPage = () => {
 
   return (
     <div className={styles.recomand} onClick={onRecomandContainerClick}>
-      <div className={styles.recomandChild} />
       <div className={styles.positiveRecommendationWrapper}>
         <PositiveRecommendation />
       </div>
-      <div className={styles.recomandItem} />
     </div>
   );
 };

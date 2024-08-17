@@ -85,12 +85,17 @@
 .badStressIcon {
   align-self: stretch;
   border-radius: var(--br-xs);
-  background-color: var(--main-2);
   flex-direction: row;
   padding: var(--padding-base) var(--padding-xl);
   box-sizing: border-box;
   gap: var(--gap-lgi);
   max-width: 100%;
+  color: black;
+}
+
+.badStressIcon:hover {
+  background-color: var(--main-2);
+  color: black;
 }
 .dangerousStressLabel {
   flex: 1;

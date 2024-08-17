@@ -1,0 +1,30 @@
+.div {
+    position: relative;
+    font-weight: 500;
+}
+.ac1,
+.wrapper {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.wrapper {
+    flex-direction: row;
+    padding: 0 var(--padding-49xl);
+}
+.ac1 {
+    width: 100%;
+    position: relative;
+    background-color: var(--color-white);
+    overflow: hidden;
+    flex-direction: column;
+    padding: 211px 0 290px;
+    box-sizing: border-box;
+    gap: 70px;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    font-size: var(--font-size-9xl);
+    color: var(--color-black);
+    font-family: var(--font-pretendard);
+}

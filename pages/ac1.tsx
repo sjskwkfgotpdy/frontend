@@ -29,7 +29,6 @@ const Ac1: NextPage = () => {
           </div>
         </div>
       </section>
-      <div className={styles.shape} />
     </div>
   );
 };

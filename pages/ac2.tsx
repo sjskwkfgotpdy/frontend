@@ -13,16 +13,15 @@ const Ac2: NextPage = () => {
 
   return (
     <div className={styles.ac3} onClick={onAc3ContainerClick}>
-      <div className={styles.contentArea} />
-      <main className={styles.main}>
+      <main className={`${styles.main}`}>
         <section className={styles.frameParent}>
-          <div className={styles.wrapper}>
+          <div className={`${styles.wrapper} w-100`}>
             <div className={styles.div}>스트레스의 강도는 어떤가요?</div>
           </div>
           <ResponseOptions />
         </section>
       </main>
-      <div className={styles.contentArea1} />
+
     </div>
   );
 };

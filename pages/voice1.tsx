@@ -1,11 +1,12 @@
 import type { NextPage } from "next";
-import { useCallback } from "react";
+import {useCallback, useEffect, useState} from "react";
 import { useRouter } from "next/router";
 import styles from "./voice1.module.css";
 
 const Voice1: NextPage = () => {
   const router = useRouter();
-
+  const [isStart, setIsStart] = useState(false);
+  const [a, setA] = useState(0);
   const onVoiceContainerClick = useCallback(() => {
     router.push("/chat");
   }, [router]);
@@ -14,12 +15,21 @@ const Voice1: NextPage = () => {
     router.push("/ac1");
   }, [router]);
 
+
+  useEffect(() => {
+    setA(a + 1)
+    console.log(a)
+    if(a >= 2) {
+      router.push("chat");
+    }
+  },[isStart])
+
   return (
-    <div className={styles.voice} onClick={onVoiceContainerClick}>
+    <div className={styles.voice}>
       <div className={styles.parent}>
         <div className={styles.div}>상황을 말해주세요.</div>
         <div className={styles.scenarioLayout}>
-          <div className={styles.instanceParent}>
+          <div className={styles.instanceParent} onClick={() => setIsStart(prev => !prev)}>
             <img
               className={styles.frameChild}
               alt=""
@@ -35,11 +45,12 @@ const Voice1: NextPage = () => {
           </div>
         </div>
       </div>
-      <main className={styles.backgroundShapes}>
-        <div className={styles.shape} />
-        <section className={styles.shape1} />
+      <main className={styles.backgroundShapes} >
+        {
+          isStart ? <img src={'/move.gif'} className={styles.move}/> :
+              <img src={'/image.png'} className={styles.stop}/>
+        }
       </main>
-      <div className={styles.shape2} />
     </div>
   );
 };

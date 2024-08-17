@@ -33,7 +33,7 @@
 .scenarioLayout {
   align-self: stretch;
   flex-direction: row;
-  padding: 0 var(--padding-36xl) 0 53px;
+  padding: 0 var(--padding-36xl) 0   53px;
 }
 .parent {
   width: 208px;
@@ -64,10 +64,9 @@
   height: 100%;
   width: 407px;
   position: absolute;
-  margin: 0 !important;
   top: 0;
   bottom: 0;
-  left: 0;
+  left: 10;
 }
 .shape2,
 .voice {
@@ -87,8 +86,8 @@
   overflow: hidden;
   display: flex;
   flex-direction: row;
-  align-items: flex-start;
-  justify-content: flex-start;
+  align-items: center;
+  justify-content: center;
   padding: var(--padding-182xl) 110px 67px 112px;
   box-sizing: border-box;
   gap: 87px;
@@ -107,4 +106,16 @@
     padding-right: var(--padding-xl);
     box-sizing: border-box;
   }
+}
+
+.stop {
+   width: 60%;
+   height: 20%;
+   margin-top: 400px;
+ }
+
+.move {
+  width: 85%;
+  height: 30%;
+  margin-top: 350px;
 }

@@ -148,6 +148,9 @@
 }
 .chat,
 .rectangleParent {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
   display: flex;
   box-sizing: border-box;
 }

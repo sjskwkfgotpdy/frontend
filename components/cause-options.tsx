@@ -11,7 +11,7 @@ const CauseOptions: NextPage<CauseOptionsType> = ({ className = "" }) => {
       <div className={styles.disputeCause}>
         <div className={styles.selector} />
       </div>
-      <div className={styles.imageCause}>
+      <div className={styles.imageCause} onClick={() => {location.href = '/ac2'}}>
         <div className={styles.imageCauseChild} />
         <div className={styles.imageName}>
           <div className={styles.div}>말다툼</div>
